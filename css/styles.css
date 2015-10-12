@@ -1,47 +1,7 @@
-.body_left{
-    position: fixed;
-    left: 0;
-    height: 100%;
-    width: 20px;
-    background:firebrick;
-	z-index: 999;
-	display:block;
-	
- 
+body {
+	border:20px solid firebrick;
+	margin:0px;
 }
-
-.body_bottom{
-    position: fixed;
-    bottom: 0;
-    height:20px;
-    width:100%;
-    background:firebrick;
-    z-index: 999;
-	display:block;
-	
-}
-
-.body_right{
-    position:fixed;
-    right: 0;
-    height: 100%;
-    width: 20px;
-    background:firebrick;
-    z-index: 999;
-	display:block;
-}
-
-.body_top{
-    position:fixed;
-    top: 0;
-    height:20px;
-    width:100%;
-    background:firebrick;
-    z-index: 999;
-	display:block;
-}
-
-
 
 #conteneur{
 	width:1000px;
@@ -50,8 +10,6 @@
 	margin-right:auto;
 	background-color:#FFFFFF;
 	font-family:arial;
-	box-sizing:border-box;
-	box-shadow:#555;
 }
 
 #menu{
@@ -269,6 +227,15 @@
 	margin-bottom:15px;
 	margin-right:15px;
 	margin-left:15px;
+}
+
+#myform{
+	position:relative;
+	left:200px;
+	top:50px;
+	color:white;
+	
+
 }
 
 .cssform p{
